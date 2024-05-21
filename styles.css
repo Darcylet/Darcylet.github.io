@@ -415,7 +415,7 @@ button:hover span{
 
 
 .genresdiv {
-    height: 1400vh auto;
+    height: 1300vh auto ;
     width: 100vw auto;
     background-image: url(/photos/bg\ genres.png);
     background-position: bottom;
@@ -439,32 +439,55 @@ button:hover span{
 
 .definitions {
     font-weight: 300;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin: 100px;
     margin-top: 200px;
     color: #f0f0f0;
     transform: translateY(100px);
     align-items: center;
+    width: 90%;
+    
 }
 
+.definitions p{
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    font-weight: 700;
+    box-shadow: 0px 0px 20px rgb(255, 255, 255, .5);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+p.sypnosis{
+    box-shadow: 0px 0px 5px rgb(255, 255, 255, 0);
+    width: 100%;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-left: 20px auto;
+    text-align: left;
+}
 .imagess{
+    position: left;
+    float: left;
     margin-bottom: 90px;
-    width: 300px;
-    display: block;
+    width: 350px;
     margin: 0 auto;
-    margin-bottom: 60px;
-    align-items: center;
+    margin-bottom: 20px;
     height: auto;
+    margin-right: 20px;
+    
 }
 
 .imagess2{
+    position: left;
+    float: left;
     margin-bottom: 90px;
-    width: 600px;
-    display: block;
+    width: 350px;
     margin: 0 auto;
-    margin-bottom: 60px;
-    align-items: center;
+    margin-bottom: 20px;
     height: auto;
+    margin-right: 20px;
 }
 
 
